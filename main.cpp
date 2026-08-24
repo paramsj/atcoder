@@ -33,7 +33,11 @@ bool dfs(int n, int pos, vector<bool>& vis, vector<int>& path) {
 }
 
 vector<int> solve_case(int n) {
+<<<<<<< HEAD
     for (int start = 1; rt <= n; ++start) {
+=======
+    for (int start = 1; start <= n; ++start) {
+>>>>>>> 70b09ae33801390379c5ced3d94f09e6219f8941
         vector<bool> vis(n + 1, false);
         vector<int> path = {start};
         vis[start] = true;
